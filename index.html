@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>𝓙𝓢𝓞𝓝 𝓣𝓸𝓸𝓵𝓼</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>𝕁𝕊𝕆ℕ 𝕋𝕠𝕠𝕝𝕤</h1>
+  </header>
+  <div class="container">
+    <div class="input-area">
+      <textarea id="input" placeholder="Enter JSON here..."></textarea>
+    </div>
+    <div class="function-area">
+      <button class="green-button" onclick="uploadFile()">Upload File</button>
+      <button class="green-button" onclick="uploadFromUrl()">Upload from URL</button>
+      <button class="green-button" onclick="beautifyJSON()">Beautify JSON</button>
+      <button class="green-button" onclick="minifyJSON()">Minify JSON</button>
+    </div>
+    <div class="result-area">
+      <button class="blue-button" onclick="copyResult()">Copy</button>
+      <button class="blue-button" onclick="downloadResult()">Download</button>
+      <textarea id="result" placeholder="{}" readonly></textarea>
+    </div>
+
+  </div>
+  <footer>
+    <p>This tool was built by <a href="https://www.linkedin.com/in/phamthach" target="_blank">Phạm Thạch</a>.</p>
+  </footer>
+  <script src="script/script.js"></script>
+
+</body>
+
+</html>
